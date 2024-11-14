@@ -1,0 +1,167 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header {
+    height: 67px;
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 160px;
+    height: 33px;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.header__buttons {
+    width: 403px;
+    height: 67px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.header__buttons_home {
+    width: 49px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__buttons_episodes {
+    width: 75px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__buttons_about {
+    width: 51px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__buttons_contact {
+    width: 68px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 913px;
+    display: flex;
+}
+
+.home__main-photo {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 0.44px;
+    width: 650px;
+    height: 873.44px;
+    z-index: -1;
+}
+
+.home__main-lines {
+    width: 68px;
+    height: 74px;
+    position: absolute;
+    margin-left: 44px;
+    margin-top: 14px;
+}
+
+.home__content {
+    width: 530px;
+    height: 610.58px;
+    margin-top: 163px;
+    margin-left: 60px;
+}
+
+.home__content_text {
+    margin-top: 163px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    color: white;
+}
+
+.home__span {
+    font-weight: 700;
+}
+
+.home__content_line {
+    position: absolute;
+    margin-top: 420.58px;
+    width: 135px;
+    height: 11px;
+}
+
+.home__content_links {
+    margin-top: 85px;
+    width: 289px;
+    height: 72px;
+}
+
+.home__content_links_subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 66px;
+    height: 24px;
+    margin-left: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.home__content_links_icons {
+    height: 32px;
+    width: 246px;
+    margin-left: 22px;
+}
+
+.home__spotify {
+    margin-right: 17px;
+}
+
+.home__pocket-casts {
+    margin-right: 17px;
+}
+
+.home__soundcoud {
+    margin-right: 17px;
+}
+
+.home__podcasts {
+    margin-right: 17px;
+}
