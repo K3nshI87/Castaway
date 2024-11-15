@@ -113,6 +113,7 @@
     font-weight: 400;
     line-height: 88px;
     color: white;
+    letter-spacing: 3.2px;
 }
 
 .home__span {
@@ -164,4 +165,149 @@
 
 .home__podcasts {
     margin-right: 17px;
+}
+
+.episodes {
+    width: 100%;
+    height: 2088px;
+}
+
+.episodes__header {
+    display: flex;
+    margin-left: 70px;
+    width: 1300px;
+    height: 99px;
+    margin-top: 100.44px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes__header_logo {
+    width: 513px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    color: white;
+    letter-spacing: 2.88px;
+}
+
+.episodes__header_button {
+    display: flex;
+    width: 178px;
+    height: 51px;
+    margin-top: 23.56px;
+    margin-bottom: 14.44px;
+    background-color: #118DA8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.episodes__header_button_text {
+    width: 143px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: white;
+}
+
+.episodes__frame {
+    display: flex;
+    width: 1300px;
+    height: 545px;
+    margin-left: 70px;
+    margin-top: 39.56px;
+    background-color: black;
+    border-radius: 15px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.episodes__frame_image {
+    width: 389px;
+    height: 465px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.episodes__frame_content {
+    width: 778px;
+    height: 465px;
+    margin-left: 53px;
+    margin-top: 40.44px;
+}
+
+.episodes__frame_content_topic {
+    display: flex;
+    width: 73px;
+    height: 27px;
+    margin-top: 7.56px;
+    background-color: #191919;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.episodes__frame_content_topic2 {
+    display: flex;
+    width: 136px;
+    height: 27px;
+    margin-top: 7.56px;
+    background-color: #191919;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.episodes__frame_content_topic_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
+
+.episodes__frame_content_num {
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 48px;
+}
+
+.episodes__frame_content_title {
+    width: 680px;
+    height: 141px;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    margin-top: 17.56px;
+    margin-bottom: 28px;
+}
+
+.episodes__frame_content_subtitle {
+    width: 757px;
+    height: 99px;
+    color: grey;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+
+.episodes__frame_content_button {
+    display: flex;
+    width: 208px;
+    height: 47px;
+    margin-top: 18px;
+    background-color: #118DA8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
