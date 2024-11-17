@@ -428,7 +428,7 @@
 }
 
 .subscribe {
-    width: 1440px;
+    width: 100%;
     height: 587px;
     display: flex;
 }
@@ -518,4 +518,71 @@
     height: 91px;
     margin-top: 423px;
     margin-left: 32px;
+}
+
+.rates {
+    width: 100%;
+    height: 901px;
+}
+
+.rates__table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 701px;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+
+.rates__table_cell{
+    width: 423px;
+    height: 321px;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+.rates__table_cell1 {
+    width: 423px;
+    height: 364px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+
+.rates__table_cell_stars {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+
+.rates__table_cell_title {
+    width: 317px;
+    height: 130px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+
+.rates__table_cell_subtitle {
+    width: 154px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: grey;
+    margin-left: 50px;
+}
+
+.rates__table_cell_subtitle1 {
+    width: 154px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: grey;
+    margin-left: 50px;
+    margin-top: 60px;
 }
