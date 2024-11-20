@@ -39,6 +39,11 @@
     line-height: 27px;
     text-decoration: none;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.header__buttons_home:hover {
+    opacity: 0.5;
 }
 
 .header__buttons_episodes {
@@ -51,6 +56,11 @@
     line-height: 27px;
     text-decoration: none;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.header__buttons_episodes:hover {
+    opacity: 0.5;
 }
 
 .header__buttons_about {
@@ -63,6 +73,11 @@
     line-height: 27px;
     text-decoration: none;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.header__buttons_about:hover {
+    opacity: 0.5;
 }
 
 .header__buttons_contact {
@@ -75,6 +90,11 @@
     line-height: 27px;
     text-decoration: none;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.header__buttons_contact:hover {
+    opacity: 0.5;
 }
 
 .home {
@@ -202,6 +222,11 @@
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    transition: opacity 0.2s;
+}
+
+.episodes__header_button:hover {
+    opacity: 0.5;
 }
 
 .episodes__header_button_text {
@@ -368,6 +393,11 @@
     justify-content: center;
     align-items: center;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.episodes__frame_content_button:hover {
+    opacity: 0.5;
 }
 
 .episodes__frame_content_button2 {
@@ -380,6 +410,11 @@
     justify-content: center;
     align-items: center;
     color: white;
+    transition: opacity 0.2s;
+}
+
+.episodes__frame_content_button2:hover {
+    opacity: 0.5;
 }
 
 .about {
@@ -503,6 +538,11 @@
     align-items: center;
     background-color: #118DA8;
     border-radius: 5px;
+    transition: opacity 0.2s;
+}
+
+.subscribe__area2_button:hover {
+    opacity: 0.5;
 }
 
 .subscribe__area2_button_text {
